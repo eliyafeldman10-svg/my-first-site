@@ -1,21 +1,71 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>האתר שלי</title>
+  <title>My Store</title>
   <style>
     body {
-      background-color: #111;
-      color: white;
-      text-align: center;
+      margin: 0;
       font-family: Arial;
+      background-color: #f5f5f5;
+      text-align: center;
     }
+
+    .container {
+      padding: 50px;
+    }
+
+    .product {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
     h1 {
-      color: #00ffcc;
+      margin-top: 20px;
+    }
+
+    .price {
+      color: green;
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    button {
+      background: black;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #333;
     }
   </style>
 </head>
+
 <body>
-  <h1>וואלה זה האתר שלי 😎</h1>
-  <p>עבדתי על זה לבד!</p>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/400" alt="product">
+      <h1>המוצר המטורף שלך 🔥</h1>
+      <p>המוצר שישנה לך את החיים. איכות גבוהה, משלוח מהיר!</p>
+      <div class="price">₪99</div>
+      <button>קנה עכשיו</button>
+    </div>
+  </div>
+
 </body>
 </html>
